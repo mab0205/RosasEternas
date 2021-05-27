@@ -1,0 +1,65 @@
+.lucky{
+  padding: 60px;
+ background-color: var(--color-gray-light);
+  background-repeat: no-repeat;
+  overflow: hidden;
+  height: 80vh;
+  background-size: cover;
+}
+
+.lucky h1{
+  color: var(--color-gray-dark);
+  text-align: center;
+  font-size: 4vw;
+  border: black;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.lucky p{
+ 
+  color: var(--color-gray-dark) ;
+  text-align: center;
+  font-size: 5vh;
+  border: 0;
+  padding: 0;
+  margin-top: 0;
+}
+
+
+
+@media only screen and (max-width:600px){
+  .lucky h1{
+      font-size:7vw;
+  } 
+  .lucky p{
+    font-size: 2.8vh;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .col-6 {width: 50%;}
+}
+
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+
+@media screen and (max-width:400px){
+  [class*="img"] {
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+}
+
+@media only screen and (max-height:600px){
+  .lucky img{
+      height: 200px;
+  }
+}
+
+
+

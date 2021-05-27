@@ -1,0 +1,21 @@
+#more-post{
+    color: white;
+    padding: 14px 7.5px 14px 7.5px ;
+    position: relative;
+    text-decoration: none;
+    background-color:var(--color-primary);
+    margin-top: 12.5%;
+    float: left;
+    font-family: 'RNS Camelia', sans-serif;   
+}
+#ask{
+    color: white;
+    padding: 14px 10px 14px 10px ;
+    position: relative;
+    text-decoration: none;
+    margin-top: 12.5%;
+    margin-left: 2%;
+    float: left;
+    border: var(--color-primary) 1px solid;
+    font-family: 'RNS Camelia', sans-serif;   
+}

@@ -1,0 +1,60 @@
+.calidad{
+    min-height: 15vh;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: left;
+    
+}
+
+.calidad div{
+    width: 27.33%;
+    padding: 10% 3% 10% 3%;
+
+}
+
+
+@media only screen and (max-width:500px){
+    .calidad div{
+      width: 100%;
+      padding: 10% 5% 30% 5%;
+  } 
+}
+.calidad a:hover{
+    color: var(--color-primary);
+    border-bottom: #666 2px solid;
+}
+
+
+.materiales{
+background-color:var(--color-gray-dark) ;
+color:var(--color-gray-light);
+    
+}
+.materiales span {
+color: var(--color-primary);
+  
+}
+    
+
+.experiencia{
+    background-color:var(--color-primary) ;
+    color:var(--color-gray-light); 
+    }
+ .experiencia span {
+        color: var(--color-gray-dark) ;
+ }
+
+ .material-icons.md-48 { font-size: 48px; }
+
+
+.tecnologia{
+    background-color:var(--color-gray);  
+    color:var(--color-gray-dark);   
+ }
+ .tecnologia span {
+    color: var(--color-primary);
+    
+}
+   

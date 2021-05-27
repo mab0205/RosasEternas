@@ -1,0 +1,117 @@
+
+.bar{
+    min-height: 9vh;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    flex-wrap: wrap;
+    font-family: 'RNS Camelia', sans-serif;   
+    }
+ .bar img{
+    margin: 0 5% 0 5%;
+ }
+    
+    .bar, .nav, .menu1{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+    
+    .nav{
+        position: relative;
+        background-color: #444266;
+        padding: 10px;
+        transition: 0.5s;
+        border-radius: 50px;
+        overflow: hidden;
+        box-shadow: 0 10px 15px rgba(0, 0, 0, .3);
+    }
+    @media only screen and (max-width:500px){
+        .nav{
+         font-size: 3.5vw;
+         padding: 5px;
+         margin:5px ;
+      } 
+      .inf{
+          visibility: hidden;
+      }
+    }
+    
+    .menu1{
+        margin: 0;
+        padding: 0;
+        width: 0;
+        overflow: hidden;
+        transition: 0.5s;
+    }
+    
+    .nav input:checked~.menu1{
+        width: 300px;
+    }
+    .menu1 li{
+        list-style: none;
+        margin: 0 10px; 
+    }
+    
+    .menu1 li a{
+        text-decoration: none;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: bold;
+        transition: ease-in-out;  
+    }
+    .menu1 li a:hover{
+        color: #666;
+        border-bottom: #666 10px groove;
+    }
+    
+    .nav input{
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+        opacity: 0;
+    }
+    
+    .nav span{
+        position: absolute;
+        left: 15px;
+        width: 25px;
+        height: 4px;
+        border-radius: 50px;
+        background-color: white;
+        pointer-events: none;
+        transition: 0.5s;
+    }
+    
+    .nav span:nth-child(2){
+        transform: translateY(-8px);
+    }
+    
+    .nav input:checked ~ span:nth-child(2){
+        transform: translateY(0) rotate(-45deg);
+    }
+    
+    .nav span:nth-child(3){
+        transform: translateY(8px);
+    }
+    
+    .nav input:checked ~ span:nth-child(3){
+        transform: translateY(0) rotate(45deg);
+    }
+    .nav input:checked ~ span:nth-child(4){
+        visibility: hidden;
+    }
+
+    .inf{ 
+        overflow: hidden;
+        margin-left: 30%;
+        padding-left: 9%;
+    }
+    .redesheader{
+        color: var(--color-gray-light) ;
+        margin-left: 20px;
+    }
+    .redesheader:hover{
+        color: var(--color-primary);
+    }
+    

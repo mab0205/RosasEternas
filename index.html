@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rosas</title>
+    <link rel="stylesheet"  href="css/styles.css">
+    <link rel="stylesheet"  href="cards/styles.css"> 
+    <link rel= "stylesheet" type="text/css" href="Product/stylecards.css">
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>                                             
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+
+<body>
+<!--BARRA DE INICIO-->
+<section class ="bar">
+  <img alt ="logo Avila Selva" src="img/logo.jpg" height="70"/>  
+        <div class="nav">
+            <input type="checkbox">
+            <span></span>
+            <span></span>
+            <span></span>
+            <div class="menu1">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Producto</a></li>
+                <li><a href="#">Contacto</a></li>  
+            </div>
+        </div>
+
+
+    <div class="inf">
+        
+        <p> <a class="redesheader" href="#"><i class="fa fa-whatsapp fa-2x"></i></a>
+        <a class="redesheader" href="#"><i class="fa fa-facebook fa-2x"></i></a></p>
+
+         </div>
+</section>
+    
+<!--CPORTADA-->
+<section class="mountains">
+
+<img src="img/header.png" id="bg">
+
+    <div class="txt">
+    <h2 id="text">Rosas Eternas</h2>
+    <h4>Cuando la vida te tire espinas    mejor busca una Rosa.  
+    <a href="#" id="more-post">Sobre Nosotros</a>  
+    <a href="#" id="ask">Contáctate</a>  
+    </h4></div>
+    
+
+    <script type="text/javascript">
+    let bg=document.getElementById("bg");
+
+    window.addEventListener('scroll',function(){
+        var value =window.scrollY;
+        bg.style.top= value * 0.5 + 'px';
+       
+    })
+
+    </script>
+</section>
+
+ <!--TRES CUADROS INFORMATIVOS-->  
+<section class="calidad">
+
+        <div class="materiales">
+        <span class="iconify" data-icon="mdi-flower" data-inline="false" width= "3em"
+        height= "3em" ></span>
+        <br><br>
+        <h1>Preservadas</h1><br>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa qui ratione asperiores laborum nulla amet est nemo.</p></div>
+    
+        <div class="experiencia">
+        <span class="material-icons md-48"> local_shipping </span>   
+        <br><br>
+        <h1>Desde Cayambe</h1><br>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa qui ratione asperiores laborum nulla amet est nemo.</p></div>
+
+        <div class="tecnologia"> 
+        <span class="material-icons md-48">check_circle </span>  
+        <br><br>
+        <h1>Experiencia</h1><br>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa qui ratione asperiores laborum nulla amet est nemo.</p>
+    </div>
+</section>
+
+<!--SOBRE LA EMPRESA-->
+<section class="main"> 
+    <div class="lucky">
+        <h1>Entrega Segura</h1>
+         <div>
+        <img class="col-img"  alt ="Obra en construccion" src="img/foto4.jpeg" height="300"/>   
+        <div class="col-6"><p>Despues de comprar tus rosas, se entragaran en un plazo maximo de 15 dias, dependiendo de la cantidad.</p></div> 
+    </div>
+</div>
+</section>
+
+
+<!--ACTUALEMTE EN STOCK-->
+<section class="nuevos"> 
+    <div class="proyectos2">
+        <h1>Actualmente en Stock</h1>
+       <p>Contamos con una amplia cantidad de colores y tamaños. </p>
+   
+</div>
+</section>
+
+<!--CARTAS-->
+<section class="enventa"> 
+    <div class="fechas">
+        <div class ="containercards">
+            <div class="card">
+                <div class="imgBx">
+                    <img src="img/foto4.jpeg" >  
+                </div>
+                <div class="content">
+                    <h3>Rosas Disponibles </h3>
+                    <h4> Ubicación: </h4>
+                        <h5>Urbanización Jardines de Amgasi</h5>
+                        <h5>Siguenos en redes sociales para más información.</h5>
+                         <a href=""><i class="fa fa-whatsapp fa-2x"></i></a>
+                         <a href="https://www.facebook.com/100703701700573/posts/116526270118316/"><i class="fa fa-facebook fa-2x"></i></a>
+                </div>
+            </div>
+    
+        <div class="card">
+            <div class="imgBx">
+                <img src="img/foto4.jpeg" >  
+            </div>
+            <div class="content">
+                <h3>Proximamente</h3>
+                <h5> Siguenos en redes sociales para más información.</h5>
+                <a href="https://www.instagram.com/capacit_ec/"><i class="fa fa-instagram fa-2x"></i></a>
+                <a href="https://www.facebook.com/Capacitec-100703701700573/"><i class="fa fa-facebook fa-2x"></i></a>
+            </div>
+        </div>
+</section>
+
+<!--TESTIMONIOS
+<section class="antiguos"> 
+    <div class="proyectos1">
+        <h1>Testimonios</h1>
+       <p>Testimonios de clientes y floristerias satisfechas con nuestras rosas.</p>
+   
+</div>
+</section>
+
+/*******SLIDER DE ROSAS****/
+<section class="slider">
+    <div class ="container">
+        <ul class="slider">
+            <li id="slide1">
+                <img src="img/foto5.jpg" />
+            </li>
+            <li id="slide2">
+                <img src="img/foto6.jpeg" />
+            </li>
+            <li id="slide3">
+                <img src="img/foto7.jpeg" />
+            </li>
+        </ul>
+
+        <ul class="menu">
+             <li>
+                <a href="#slide1"><i class="fas fa-home"></i></a>
+             </li>
+             <li>
+                <a href="#slide2"><i class="fas fa-home"></i></a>
+             </li>
+             <li>
+                <a href="#slide3"><i class="fas fa-home"></i></a>
+             </li>
+
+        </ul>
+    </div>
+</section>
+
+-->
+
+<section class="Produc">
+<div class="container2">
+    <ul class="thumb">
+    <li onmouseover="changeImageSrc(`img/rosa-morada.png`)"><img src="img/rosa-morada.png"></li>
+    <li onmouseover="changeImageSrc(`img/rosa-roja.png`)"><img src="img/rosa-roja.png"></li>
+    <li onmouseover="changeImageSrc(`img/rosa-blanca.png`)"><img src="img/rosa-blanca.png"></li>
+</ul>
+<div class="imgBox">
+    <h2>Rosas Preservadas</h2>
+    <img src="img/rosa-roja.png" class="shoesss">
+    <ul class="size">
+        <span>size</span>
+        <li>S</li>
+        <li>M</li>
+        <li>L</li>
+    </ul>
+    <a href="#" class="btn">ADD TO CART</a>
+
+</div>
+
+</div>
+
+<script>
+function changeImageSrc(anything)
+{
+document.querySelector(`.shoesss`).src = anything;
+}
+</script>
+</section>
+
+
+
+<!--FOOTER-->
+<footer>
+    <section class="footer">
+        <div class="logo">
+        <br><br>
+        <img alt ="logo Avila Selva" src="img/logo.jpg" height="70"/>  <br>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+           Culpa qui ratione asperiores laborum nulla amet est nemo.</p></div>
+    
+        <div class="links">
+        <br><br>
+        <h1>Links</h1><br>
+            <a href="#">Inicio</a><br><br>
+            <a href="#">Proyectos</a><br><br>
+            <a href="#">Contacto</a></div><br><br>
+
+        <div class="contactos">
+        <br><br>
+        <h1>Encuéntranos en:</h1><br>
+        <p> <i class="fas fa-map-marker"></i>  Avigiras, Quito 170124 </p><br>
+
+        <p> <i class="fas fa-location-arrow"></i>  edas76@hotmail.com </p><br>
+
+        <p> <a href="#"><i class="fa fa-whatsapp fa-2x"></i></a> +5936698532</p><br>
+        <p> <a href="#"><i class="fa fa-facebook fa-2x"></i></a> </p><br>
+    </div>
+</section>
+
+
+</footer>
+
+
+</body>
+</html>

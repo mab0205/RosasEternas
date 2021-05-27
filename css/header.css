@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mountains{
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt{
+    flex-wrap: wrap;
+}
+
+#text{
+position: relative;
+color: white;
+font-size: 8vw;
+font-family: 'England Hand DB', sans-serif;                                         
+}
+
+.txt h4{
+    position: relative;
+    color: white;
+    font-size: 1.2vw;
+    padding-right: 30%;
+    margin-top: 1%;
+    font-family: 'RNS Camelia', sans-serif;                                          
+}
+
+@media only screen and (max-width:500px){
+    #text{
+     font-size: 9vw;
+     text-align: center;
+  } 
+  .txt h4{
+    font-size: 3.5vw;
+    padding-right: 0%;
+    padding-left: 5%;
+ } 
+}
+
+.mountains:before{
+content: '';
+position: absolute;
+bottom: 0;
+width: 100%;
+height: 70px;
+background: linear-gradient(to top,rgb(125, 101, 211), transparent);
+z-index: 1000;
+
+}
+
+.mountains:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10000;
+    mix-blend-mode: color;
+    
+    }
+
+.mountains img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+#road{
+    z-index: 2;
+}
+
+
